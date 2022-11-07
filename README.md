@@ -1,5 +1,5 @@
 <p><h1 align="left">SwiftyUI Menu</h1></p>
-<div><p><img align="right" src="https://github.com/deepakpillai/SwiftyUI-Menu/blob/main/SwiftyUIMenu.gif?raw=true" width="160" />
+<div><p><img align="right" src="https://github.com/deepakpillai/AngleSideMenu/blob/main/AngleMenu.gif" width="160" />
 </p>
 <p><h4>Easily & customizable menu for SwiftUI with SF Symbol support</h4></p>
 
