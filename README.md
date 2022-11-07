@@ -18,7 +18,7 @@ ___
         Menu(isMenuShown: $isMenuShown, menuItems: self.getMenuItems())
     }
     ```
-4. Add the below set of parameters to your main view which is inside your main ZStack
+4. Add the below set of parameters to your main view which is inside your main view
     ```swift
     .cornerRadius(isMenuShown ? 20 : 0)
     .offset(x: isMenuShown ? 300 : 0, y: isMenuShown ? 50 : 0)
