@@ -128,7 +128,7 @@ With the above steps you will be able to add the SwiftyUI Menu to your applicati
 
 ### Installation - Manually
 
-Drop [Menu.swift](https://github.com/deepakpillai/SwiftyUI-Menu/blob/main/SwiftyUIMenu/Menu.swift) into your project.
+Drop [Menu.swift](https://github.com/deepakpillai/AngleSideMenu/blob/main/Source/Menu.swift) into your project.
 
 <br>
 <br>
