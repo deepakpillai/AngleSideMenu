@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationView {
             ZStack {
                 if isMenuShown {
-                    Menu(isMenuShown: $isMenuShown, menuItems: self.getMenuItems())
+                    Menu(isMenuShown: $isMenuShown, menuItems: self.getMenuItems(), profileName: "Deepak Pillai", profileImage: UIImage(named: "profileIcon"), footerText: "©Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.")
                 }
                 if isUserLoggedIn {
                     

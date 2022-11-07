@@ -10,6 +10,9 @@ import SwiftUI
 struct Menu: View {
     @Binding var isMenuShown: Bool
     var menuItems: [MenuItem] = []
+    var profileName: String = ""
+    var profileImage: UIImage?
+    var footerText: String = ""
     
     var body: some View {
         ZStack {
@@ -19,8 +22,13 @@ struct Menu: View {
                     .frame(height: 100)
                 HStack {
                     VStack {
-                        Image("profileIcon").resizable().frame(width: 150, height: 150, alignment: .center)
-                        Text("Deepak Pillai").bold().foregroundColor(.white).font(.system(size: 30))
+                        if let image = profileImage {
+                            Image(uiImage: image).resizable().frame(width: 150, height: 150, alignment: .center)
+                        } else {
+                            Image(systemName: "face.smiling").resizable().frame(width: 150, height: 150, alignment: .center)
+                        }
+                        
+                        Text(profileName).bold().foregroundColor(.white).font(.system(size: 30))
                         Divider().frame(width: 120)
                     }
                     Spacer()
@@ -39,7 +47,7 @@ struct Menu: View {
                 }
                 Spacer()
                 HStack {
-                    Text("©Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+                    Text(footerText)
                         .foregroundColor(.white)
                         .lineLimit(3)
                         .multilineTextAlignment(.leading)
