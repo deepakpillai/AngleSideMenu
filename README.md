@@ -22,6 +22,7 @@ ___
     ```swift
     .cornerRadius(isMenuShown ? 20 : 0)
     .offset(x: isMenuShown ? 300 : 0, y: isMenuShown ? 50 : 0)
+    .rotationEffect(.init(degrees: isMenuShown ? -8 : 0))
     .navigationTitle("Home")
     .navigationBarTitleDisplayMode(.inline)
     .ignoresSafeArea()
