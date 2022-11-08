@@ -15,7 +15,7 @@ ___
 3. Inside your main ZStack, add the below code 
     ```swift
     if isMenuShown {
-        Menu(isMenuShown: $isMenuShown, menuItems: self.getMenuItems())
+            Menu(isMenuShown: $isMenuShown, menuItems: self.getMenuItems(), profileName: "Deepak Pillai", profileImage: UIImage(named: "profileIcon"), footerText: "©Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.")
     }
     ```
 4. Add the below set of parameters to your main view
