@@ -3,7 +3,7 @@
 </p>
 <p><h4>Easily & customizable menu for SwiftUI with SF Symbol support</h4></p>
 
-___
+___ 
 
 # Usage
 
